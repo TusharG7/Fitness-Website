@@ -1,0 +1,185 @@
+
+
+@media(max-width: 515px){
+	.feature-cards{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.pricing .pricing-cards{
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+
+	}
+	.gallerys .img{
+		width: 100% !important;
+		height: 100% !important;
+
+	}
+	.trainer-portfolio{
+	grid-template-columns: repeat(1,1fr) !important;
+
+	}
+
+}
+@media(max-width: 767px){
+	/*************helper***********/
+	.btn-red{
+	padding: 7px 45px;
+	background: red;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Teko', sans-serif;
+	display: inline-block;
+	border: 1px solid red;
+	}
+	.container{
+		padding: 20px;
+	}
+	
+/*************navbar***********/
+	.mob-nav{
+		display: flex;
+		opacity: 1;
+	}
+	
+	.navbar{
+		display: none;
+	}
+	.headings{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		
+	}
+	.headings .details h2{
+		font-size: 40px;
+	}
+	.headings .details h1{
+		font-size: 25px;
+	}
+	.headings .details p{
+/*		text-align: center;*/
+		font-size: 12px;
+	}
+	
+/***********features************/
+	
+	.features h3{
+		font-size: 28px;
+	}	
+/*
+	.feature-cards{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+*/
+.feature-cards{
+	
+	grid-template-columns: repeat(2,1fr);
+	
+}
+
+
+/***********offer************/
+
+.offer{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+/*    padding: 193px 0 210px 0;*/
+	
+	padding-top: 20px;
+    padding-bottom: 80px;
+	color: white;
+	grid-template-columns: 1fr;
+	
+}
+.offer-details{
+	margin: 0;
+/*	padding: 20px;*/
+}
+.offer-details h3{
+	font-size: 28px;
+/*	padding-right: 160px;*/
+}
+.offer-details h2{
+	color: red;
+	font-size: 50px;
+}
+.offer-details p{
+	font-size: 16px;
+	color: white;
+	line-height: 26px;
+	
+}
+
+
+/******************pricing********************/
+
+
+
+.pricing h3{
+	font-size: 28px;
+}
+
+.pricing p{
+	font-size: 17px;
+	padding: 0;
+}
+.pricing-cards{
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+
+}
+
+/******************gallery********************/
+
+.gallerys .img{
+	position: relative;
+	cursor: pointer;
+	width: 50%;
+	height: 50%;
+}
+/******************trainers********************/
+.trainers h3{
+	font-size: 28px;
+	
+}
+.trainers p{
+	padding: 0px;
+}
+.trainer-portfolio{
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: .3rem;
+}
+	.trainer-img img{
+	width: 90%;
+}
+
+/******************Big-Offer********************/
+.big-offer-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 270px;
+    background-size: cover;
+}
+.big-offer-overlay-contents h3{
+	font-size: 24px;
+
+}
+/******************contact********************/
+
+.contact-details{
+	grid-template-columns: repeat(1,1fr);
+}
+
+.subscribe .submit{
+	position:static;
+	
+}
+}
